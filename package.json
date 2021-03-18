@@ -1,10 +1,10 @@
 {
   "name": "dashboard-with-victoriachart",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "dashboard-with-victoriachart",
   "author": "Felipe Marques",
   "license": "MIT",
-  "repository": "",
+  "repository": "https://github.com/markseng/dashboard.git",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
@@ -49,5 +49,13 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "date-and-time": "^0.14.2",
+    "react-icons": "^4.2.0",
+    "prop-types": "^15.7.2",
+    "prototypes": "^3.0.3",
+    "victory": "^35.4.11"
+  }
 }
